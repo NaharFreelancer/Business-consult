@@ -1,0 +1,567 @@
+@media screen and (max-width: 1024px){
+    .nav-link {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .hero__section {
+        padding: 40px 0px 80px 0px;
+    }
+    .hero-title {
+        padding-bottom: 40px;
+        font-size: 50px;
+        line-height: 130%;
+    }
+    .hero-title::after {
+        top: 74%;
+    }
+    .hero-para {
+        font-size: 16px;
+    }
+    .dark {
+        margin-top: 40px;
+    }
+    .null-div{
+        display: none;
+    }
+    .business__section {
+        padding-bottom: 100px;
+    }
+    .business-title {
+        font-size: 30px;
+        padding: 90px 0px 100px 0px;
+    }
+    .business-para {
+        font-size: 14px;
+    }
+    .mission__section {
+        padding: 100px 0;
+    }
+    .mission_title {
+        font-size: 40px;
+        line-height: 130%;
+    }
+    .mission_title::after {
+        top: 51%;
+        left: 3px;
+        width: 44%;
+    }
+    .mission-para {
+        font-size: 15px;
+    }
+    .nav {
+        gap: 23px;
+    }
+    .serve__section {
+        padding: 90px 0 100px 0;
+    }
+    .serve_title {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .serve-para {
+        font-size: 15px;
+        padding-bottom: 40px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .card-text {
+        font-size: 14px;
+    }
+    .card{
+        min-height: 300px;
+    }
+    .card-img-top {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .expert__section {
+        margin-top: 90px;
+    }
+    .expert-title {
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .expert-title::after {
+        right: 470px;
+        top: 18%;
+    }
+    .mentor-name {
+        font-size: 20px;
+        line-height: 130%;
+        padding: 24px 0 0px 0;
+    }
+    .mentor-designation {
+        font-size: 14px;
+    }
+    .testimonial__section {
+        margin-top: 100px;
+    }
+    .testimonial-title {
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .testimonial-text {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .quote-text {
+        font-size: 17px;
+        padding: 24px 0 24px 0;
+    }
+    .client-name {
+        font-size: 22px;
+        line-height: 130%;
+        padding: 26px 0 12px 0;
+    }
+    .client-designation {
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .testimonial-swiper img{
+            max-width: 90%!important;
+    }
+    .testimonial-swiper #quote{
+        max-width: 80%!important;
+}
+.email__section {
+    margin-top: 110px;
+}
+.email__area {
+    border-radius: 55px;
+    padding: 80px 0;
+}
+.email-title {
+    font-size: 40px;
+    line-height: 130%;
+    padding-bottom: 25px;
+}
+.email-text {
+    font-size: 15px;
+    line-height: 130%;
+    padding-bottom: 40px;
+}
+.footer__section {
+    padding: 90px 0 80px 0;
+}
+.company-title {
+    font-size: 16px;
+    line-height: 130%;
+}
+.footer-logo-text {
+    font-size: 15px;
+    line-height: 140%;
+    padding-top: 20px;
+}
+.footer-menu {
+    font-size: 14px;
+    line-height: 130%;
+}
+.footer-menu-2 .form-control {
+    font-size: 14px;
+    padding: 10px 11px 10px 16px;
+}
+.privacy-title {
+    font-size: 16px;
+}
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar-toggler-icon{
+        color: #fff;
+        font-size: 30px;
+        background-image: none;
+        border: none;
+        border-radius: none;
+        text-align: center;
+
+    }
+    .navbar-toggler{
+        line-height:0;
+
+
+    }
+   
+    .hero-title {
+        padding-bottom: 25px;
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .hero-title::after {
+        top: 64%;
+        left: 226px;
+        width: 40%;
+        height: 20px;
+}
+.hero__area{
+    text-align: center;
+}
+.hero__area img{
+    max-width: 70%;
+}
+.dark {
+    margin: 40px 0;
+}
+.business__section {
+    padding-bottom: 80px;
+}
+
+
+.business-title {
+    font-size: 30px;
+    padding: 70px 0px 0px 0px;
+}
+.img-res{
+    display: none;
+}
+.business-para {
+    font-size: 14px;
+    padding: 30px 0 80px;
+}
+.mission__section {
+    padding: 80px 0;
+}
+.mission__area{
+    text-align: center;
+}
+.mission__area img{
+    max-width: 85%;
+}
+.mission_title {
+    font-size: 30px;
+    padding-top: 20px;
+}
+.mission_title::after {
+    top: 42%;
+    left: 412px;
+    width: 18%;
+}
+.nav-tabs .nav-link.active{
+    font-size: 15px;
+}
+.nav {
+    justify-content: center;
+}
+
+
+.tab-content>.active {
+    display: block;
+}
+/* .tab-content>.tab-pane {
+    display: none;
+} */
+.tab-pane {
+    max-width: 90%;
+    margin: auto;
+}
+.serve__section {
+    padding: 70px 0 90px 0;
+}
+.serve_title {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.card {
+    min-height: 270px;
+    padding: 10px;
+}
+.card-img-top {
+    margin-top: 42px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-text {
+    font-size: 12px;
+}
+.expert__section {
+    margin-top: 70px;
+}
+.expert-title {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.expert-title::after {
+    right: 90px;
+}
+.testimonial__section {
+    margin-top: 80px;
+}
+.testimonial-title {
+    font-size: 30px;
+}
+.testimonial-title::after {
+    right: 203px;
+    width: 27%;
+}
+.testimonial-swiper img {
+    max-width: 60%!important;
+}
+
+
+.text-start {
+    padding-top: 30px;
+    text-align: center!important;
+}
+.quote-text {
+    font-size: 14px;
+    padding: 17px 0 17px 0;
+}
+.client-name {
+    font-size: 18px;
+    padding: 20px 0 3px 0;
+}
+.client-designation {
+    font-size: 15px;
+    line-height: 130%;
+    padding-bottom: 35px;
+}
+.email__section {
+    margin-top: 80px;
+}
+.email__area {
+    border-radius: 50px;
+    padding: 70px 0;
+}
+.email-title {
+    font-size: 30px;
+    line-height: 125%;
+    padding-bottom: 20px;
+}
+.email-text {
+    font-size: 12px;
+    padding-bottom: 35px;
+}
+.footer__section {
+    padding: 80px 0 70px 0;
+}
+    
+}
+
+@media screen and (max-width: 425px){
+    .nav-link {
+        font-size: 14px;
+    }
+    .hero-title {
+        padding-bottom: 20px;
+        font-size: 38px;
+        line-height: 110%;
+    }
+    .hero-title::after {
+        top: 71%;
+        left: 156px;
+        width: 48%;
+        height: 20px;
+    }
+    .hero-para {
+        font-size: 13px;
+    }
+    .dark {
+        margin: 30px 0;
+    }
+    .business-title {
+        font-size: 28px;
+        padding: 60px 0px 0px 0px;
+    }
+    .business-para {
+        font-size: 13px;
+    }
+    .mission__section {
+        padding: 80px 0;
+    }
+    .mission_title {
+        font-size: 25px;
+    }
+    .mission_title::after {
+        top: 42%;
+        left: 234px;
+        width: 28%;
+    }
+    .mission-para {
+        font-size: 12px;
+    }
+    .nav-tabs .nav-link.active {
+        font-size: 13px;
+    }
+    .nav-link {
+        font-size: 13px;
+    }
+    .mission__section {
+        padding: 40px 0;
+    }
+    .tab-pane {
+        font-size: 12px;
+        max-width: 80%;
+        margin: auto;
+
+    }
+    .serve__section {
+        padding: 60px 0 70px 0;
+    }
+    .serve_title {
+        font-size: 22px;
+        padding-bottom: 16px;
+    }
+    .serve_title::after {
+        top: -42%;
+        width: 91px;
+        height: 60px;
+    }
+    .serve-para {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-img-top {
+        margin-top: 30px;
+    }
+    .card-text{
+        padding-bottom: 0;
+    }
+    .expert__section {
+        margin-top: 60px;
+    }
+    .expert-title {
+        font-size: 25px;
+        padding-bottom: 78px;
+    }
+    .mentor-name {
+        font-size: 18px;
+    }
+    .mentor-designation {
+        font-size: 12px;
+    }
+    .expert-title::after {
+        right: -45px;
+        top: 8%;
+    }
+    .testimonial__section {
+        margin-top: 60px;
+    }
+    .testimonial-title {
+        font-size: 25px;
+    }
+    .testimonial-title::after {
+        right: 50px;
+        width: 24%;
+    }
+    .testimonial-text {
+        font-size: 12px;
+    }
+    .email__section {
+        margin-top: 60px;
+    }
+    .email__area {
+        border-radius: 40px;
+        padding: 60px 0;
+    }
+    .email-title {
+        font-size: 25px;
+        padding-bottom: 18px;
+    }
+    .email_field {
+        max-width: 360px;
+    }
+    .footer__section {
+        padding: 60px 0 50px 0;
+    }
+    .privacy__area {
+        flex-direction: column;
+    }
+    .privacy-title {
+        font-size: 14px;
+        padding: 18px 0;
+    }
+    
+
+.social-media {
+    gap: 10px;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (max-width: 375px){
+    .hero-title {
+        padding-bottom: 18px;
+        font-size: 34px;
+        line-height: 100%;
+    }
+    .hero-title::after {
+        top: 73%;
+        left: 140px;
+        width: 46%;
+        height: 20px;
+    }
+    .hero-para {
+        font-size: 11px;
+    }
+    .dark {
+        margin: 20px 0;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    .business-title {
+        font-size: 25px;
+        padding: 50px 0px 0px 0px;
+    }
+    .business-para {
+        font-size: 12px;
+    }
+    .business__section {
+        padding-bottom: 70px;
+    }
+    .mission_title::after {
+        top: 43%;
+        left: 210px;
+        width: 31%;
+    }
+    .serve_title {
+        font-size: 20px;
+        padding-bottom: 12px;
+    }
+    .serve-para {
+        padding-bottom: 28px;
+    }
+    .expert-title {
+        font-size: 22px;
+    }
+    .expert-title::after {
+        right: -57px;
+        top: 4%;
+    }
+    .testimonial-title {
+        font-size: 22px;
+    }
+    .testimonial-title::after {
+        right: 45px;
+    }
+    .email__area {
+        border-radius: 35px;
+        padding: 50px 0;
+    }
+    .email_field {
+        max-width: 320px;
+    }
+    .footer__section {
+        padding: 50px 0 40px 0;
+    }
+    .privacy-title {
+        font-size: 13px;
+        padding: 15px 0;
+    }
+    .social-media {
+        font-size: 18px;
+    }
+    
+
+}
