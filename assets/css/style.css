@@ -26,11 +26,27 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
+    position: relative;
 }
-
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+}
 .nav-link:hover {
     color: var(--Secondary-Color, #69FAB4);
 }
+.nav-link.active::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -29px;
+    left: 60px;
+    width: 25%;
+    border-radius: 50px;
+    height: 3px;
+    background-color: #76ed91;/* Change the color to your desired hover underline color */
+    transition:0.3s ease-in-out;
+    } 
+ 
 
 .btn-success {
     --bs-btn-color: #12182B;
@@ -109,7 +125,7 @@
     color: #69FAB4;
 }
 
-.icon:hover {
+.btn:hover .icon {
     color: #12182B;
 }
 
@@ -328,25 +344,40 @@ button.slick-next.slick-arrow {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid transparent;
+    border: 2px solid transparent !important;
     /* Set the initial border */
     background: linear-gradient(154deg, rgba(121, 117, 131, 0.20) 5.35%, rgba(54, 53, 103, 0.20) 83.85%), rgba(49, 48, 54, 0.20);
-    transition: 0.3s ease;
+    transition: 0.3s ease-in-out;
     border-radius: 30px;
     min-height: 363px;
 }
 
 .card:hover {
-    border: 2px solid transparent;
-    /* Set the initial border */
+    /* border: 2px solid transparent;
     border-image: linear-gradient(to bottom, rgba(118, 237, 145, 1), rgba(255, 255, 255, 0)) 1;
-    /* Define the linear gradient border */
     border-image-slice: 3;
-    /* Ensure the whole border is covered by the gradient */
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 30px; */
+
+
+    /* border: 2px solid transparent;
+    border-image: linear-gradient(to bottom, #76ed91, #ffffff00) 1 !important;
+    border-color: rgba(118, 237, 145, 1); Change this to the color you want on hover */
+
+    /* border-image-slice: 3; */
+    /* cursor: pointer;
+    border-radius: 30px; */
+
+    background-image: url(../images/border.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+
+
 
 }
+
+  
 
 .card-body {
     padding: 0;
@@ -617,6 +648,9 @@ button.slick-next.slick-arrow {
     padding: 10px 30px 10px 23px;
     margin: 12px 0;
     max-width: 284px;
+}
+.form-control:focus{
+    box-shadow: none;
 }
 
 .privacy__section {

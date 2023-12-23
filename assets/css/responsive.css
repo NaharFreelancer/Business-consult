@@ -103,6 +103,10 @@
         font-size: 35px;
         line-height: 130%;
     }
+    .testimonial-title::after {
+        top: 54%;
+        right: 306px;
+    }
     .testimonial-text {
         font-size: 14px;
         line-height: 130%;
@@ -409,9 +413,12 @@
         padding-bottom: 16px;
     }
     .serve_title::after {
-        top: -42%;
+        /* top: -43%;
+        right: -59px;
         width: 91px;
         height: 60px;
+        overflow: hidden; */
+        display: none;
     }
     .serve-para {
         font-size: 12px;
@@ -440,8 +447,8 @@
         font-size: 12px;
     }
     .expert-title::after {
-        right: -45px;
-        top: 8%;
+        right: 4px;
+        top: -10%;
     }
     .testimonial__section {
         margin-top: 60px;
@@ -536,8 +543,9 @@
         font-size: 22px;
     }
     .expert-title::after {
-        right: -57px;
-        top: 4%;
+        /* right: -57px;
+        top: 4%; */
+        display: none;
     }
     .testimonial-title {
         font-size: 22px;
