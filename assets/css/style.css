@@ -12,12 +12,16 @@
 .navbar {
     --bs-navbar-nav-link-padding-x: 49px;
     --bs-navbar-padding-x: 0;
-    --bs-navbar-padding-y: 24px;
+    --bs-navbar-padding-y: 21px;
 
 }
 
 .navbar-nav .nav-link.active {
     color: var(--Secondary-Color, #69FAB4);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 49px;
+    padding-left: 0px;
 }
 
 .nav-link {
@@ -34,7 +38,7 @@
 .nav-link:hover {
     color: var(--Secondary-Color, #69FAB4);
 }
-.nav-link.active::after {
+/* .nav-link.active::after {
     content: '';
     display: block;
     position: absolute;
@@ -43,9 +47,9 @@
     width: 25%;
     border-radius: 50px;
     height: 3px;
-    background-color: #76ed91;/* Change the color to your desired hover underline color */
+    background-color: #76ed91;
     transition:0.3s ease-in-out;
-    } 
+    }  */
  
 
 .btn-success {
@@ -61,13 +65,18 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
-    padding: 10px;
+    padding:15px 30px;
     border-radius: 10px;
 }
-
+.btn:hover{
+    transform: 0.4s ease-in-out;
+}
+.subscribe{
+    padding: 10px 23px;
+}
 .subscribe:hover {
     color: var(--Primary-Color, #12182B);
-    ;
+    
 
 }
 
@@ -105,6 +114,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
+    padding-bottom: 56px;
+
 }
 
 .dark {
@@ -117,8 +128,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
-    padding: 10px;
-    margin-top: 56px;
+    padding: 20px 32px;
 }
 
 .icon {
@@ -353,28 +363,11 @@ button.slick-next.slick-arrow {
 }
 
 .card:hover {
-    /* border: 2px solid transparent;
-    border-image: linear-gradient(to bottom, rgba(118, 237, 145, 1), rgba(255, 255, 255, 0)) 1;
-    border-image-slice: 3;
-    cursor: pointer;
-    border-radius: 30px; */
-
-
-    /* border: 2px solid transparent;
-    border-image: linear-gradient(to bottom, #76ed91, #ffffff00) 1 !important;
-    border-color: rgba(118, 237, 145, 1); Change this to the color you want on hover */
-
-    /* border-image-slice: 3; */
-    /* cursor: pointer;
-    border-radius: 30px; */
-
     background-image: url(../images/border.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.3s ease-in-out;
-
-
-
+    cursor: pointer;
 }
 
   

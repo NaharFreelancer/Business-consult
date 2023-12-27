@@ -319,8 +319,8 @@
           <div class="col-lg-6 text-start">
             <div id="quote"><img class="img-fluid d-none d-lg-block" src="./assets/images/quote.png" alt="img">
             </div>
-            <p class="quote-text">Working with Consuly to implement their strategic <br class="d-block d-lg-none" ><br class="d-none d-lg-block" >
-               planning framework has helped <br class="d-block d-lg-none" >us focus on the <br class="d-none d-lg-block" > biggest
+            <p class="quote-text">Working with Consuly to implement their strategic<br class="d-none d-lg-block" >
+               planning framework has helped <br class="d-block d-lg-none" >us focus on the  biggest
                opportunities for growth</p>
                <img class="img-fluid" src="./assets/images/rating.png" alt="img">
                <p class="client-name">Maya Language</p>
@@ -406,11 +406,11 @@
       <p class="email-text">Contact with us now and get the all effecient<br class="d-block d-lg-none" > service on your door let's<br class="d-none d-lg-block" >
          have a chat. Shall we?</p>
 
-         <div class="email_field">
-          <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Your email here">
+         <form action="" class="email_field">
+          <label for="exampleInputEmail1"></label>
+          <input required type="email" class="form-control " id="exampleFormControlInput1" aria-describedby="emailHelp" placeholder="Your email here">
           <button class="btn btn-success get-started" type="submit">Get Started</button>
-
-        </div>
+        </form>
 
 
   
@@ -470,12 +470,14 @@
             <div class="col-md-6 pb-4 col-lg-3">
               <div class="footer-menu-2">
                 <p class="company-title">Subscribe our newsletter</p>
-                <div>
-                  <!-- <label for="exampleFormControlInput1" class="form-label"></label> -->
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email here">
-                </div>
 
-                <button class="btn btn-success subscribe" type="submit">Subscribe</button>
+                <form>
+                  <label for="exampleInputEmail1"></label>
+                  <input required type="email" class="form-control " id="exampleFormControlInput1" aria-describedby="emailHelp" placeholder="Your email here">
+                  <button class="btn btn-success subscribe" type="submit">Subscribe</button>
+                </form>
+        
+
               </div>
 
 

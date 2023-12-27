@@ -45,40 +45,28 @@ body{
 
 /* General Styles End */
 
+/* width, height, and color of the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
-/* .swiper-container {
-    width: 80%;
-    margin: 20px auto;
-    position: relative;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: #fff;
-    font-size: 18px;
-    background-color: #333;
-    padding: 10px;
-    border-radius: 5px;
-    position: absolute;
-    top: 10px;
-  }
-  
-  .swiper-button-next {
-    right: 60px;
-  }
-  
-  .swiper-button-prev {
-    left: 10px;
-  }
-  
-  .swiper-button-next:hover,
-  .swiper-button-prev:hover {
-    background-color: #555;
-  }
-   */
+/* color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #6af5b2;
+}
+
+/* color on the top and bottom of the scrollbar handle */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* corner radius of the scrollbar handle */
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 12px;
+}
+
+/* corner radius of the scrollbar track */
+::-webkit-scrollbar-track:horizontal {
+  border-radius: 12px;
+}
+
