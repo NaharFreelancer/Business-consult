@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business_Consulting_Service_Details_Page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <link rel="stylesheet" href="./assets/css/service -details.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+  <!-- Bootstrap Navbar Start Here -->
+  <div class="menubar__section">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="#"><img class="img-fluid" src="./assets/images/Logo-Main.png" alt="img"></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="./about.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./portfolio.html">Porfoilo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./service.html">Our Service</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-success" type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    </div>
+  </div>
+
+  <!-- Hero Content Start Here -->
+  <div class="service-details-section">
+    <div class="container">
+      <div class="service-details-area">
+        <p class="service-details-text">Business Analysis</p>
+        <h3 class="service-details-title">Why Us For International Business Consulting!</h3>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="left-side-bar">
+              <h4 class="side-title">More Services</h4>
+
+              <div class="service-parent">
+                <p class="service-title">Business Analysis</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+              <div class="service-parent">
+                <p class="service-title">Strategic Planning</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+              <div class="service-parent">
+                <p class="service-title">Business Consulting</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+              <div class="service-parent">
+                <p class="service-title">Marketing Strategy</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+              <div class="service-parent">
+                <p class="service-title">Experience Design</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+              <div class="service-parent">
+                <p class="service-title">Audit & Evaluation</p>
+                <i class="fa-solid fa-arrow-right-long icon"></i>
+              </div>
+
+            </div>
+            <div class="left-side-bar-2">
+              <h4 class="side-title">Brochure</h4>
+              <p class="side-text">when an unknown printer took ga <br class="d-none d-xl-block">
+                lley offer typey anddey.</p>
+
+              <div class="service-parent-2">
+                <div class="pdf-parent">
+                  <img class="img-fluid" src="./assets/images/file-pdf.png" alt="img">
+                  <p class="service-title-2">PDF. Download</p>
+                </div>
+                <button class="border-0 bg-transparent">
+                  <img class="img-fluid" src="./assets/images/download.png" alt="icon">
+                </button>
+
+              </div>
+              <div class="service-parent-2">
+                <div class="pdf-parent">
+                  <img class="img-fluid" src="./assets/images/file-pdf.png" alt="img">
+                  <p class="service-title-2">PDF. Download</p>
+                </div>
+                <button class="border-0 bg-transparent">
+                  <img class="img-fluid" src="./assets/images/download.png" alt="icon">
+                </button>
+              </div>
+
+            </div>
+
+
+            <div class="left-side-bar-2">
+              <h4 class="side-title">Get A Free Quote</h4>
+              <form>
+                <div class="child">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                </div>
+
+                <div class="child">
+                  <input required type="email" class="form-control " id="exampleFormControlInput1"
+                    aria-describedby="emailHelp" placeholder="E-mail Address">
+                </div>
+                <div class="child">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type Your Message"
+                    rows="3"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-primary message">Send Message</button>
+
+              </form>
+
+            </div>
+
+            <div class="contact-parent">
+              <h5 class="contact-title">If You Need Any Help<br class="d-none d-xl-block">
+                Contact With Us</h5>
+              <div class="contact-number">
+                <button class="btn btn-success" type="submit"><i class="fa-solid fa-phone"></i> +91705 2101786</button>
+
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <div class="bg-parent">
+              <img class="img-fluid" src="./assets/images/service-details-bg.png" alt="BG">
+              <p class="img-bottom-text">Embed a little help from our friends from time to time. Although we offer the one-stop convenience of 
+                annery integrated range of legal, financial services under one roof, there are occasions when our 
+                clients areaneed specia- list advice beyond the scope of our own expertise. That's why we've developed 
+                close working relationships with a number of strategic partner.</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h5 class="term-title">Raise Capital Faster & Negotiate On 
+                  Your Own Terms</h5>
+                  <p class="term-text">When an unknown printer took a galley offer typey anddey scrambled make
+                     a type specimen bookhas survived not only 
+                    five when an unknown printer took a galley of type and scrambled it to make a type specimen</p>
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="term-menu-parent">
+                          <img class="img-fluid" src="./assets/images/tick.png" alt="icon">
+                          <p class="menu-text">100% Better Results</p>
+                        </div>
+                        <div class="term-menu-parent">
+                          <img class="img-fluid" src="./assets/images/tick.png" alt="icon">
+                          <p class="menu-text">Budget Friendly Theme</p>
+                        </div>
+
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="term-menu-parent">
+                          <img class="img-fluid" src="./assets/images/tick.png" alt="icon">
+                          <p class="menu-text">Valuable Ideas</p>
+                        </div>
+                        <div class="term-menu-parent">
+                          <img class="img-fluid" src="./assets/images/tick.png" alt="icon">
+                          <p class="menu-text">Happy Customers</p>
+                        </div>
+
+                      </div>
+                    </div>
+
+              </div>
+              <div class="col-lg-6">
+                <div class="finance-parent">
+                  <div class="icon">
+                    <img class="img-fluid" src="./assets/images/finance-icon.png" alt="icon">
+                  </div>
+                  <div class="content">
+                   <p class="content-name" >Finance Consulting</p>
+                   <p class="content-text">Feed are little help fromery fri of 
+                    anery integrated</p>
+                  </div>
+                </div>
+                <div class="finance-parent-2">
+                  <div class="icon">
+                    <img class="img-fluid" src="./assets/images/tax-icon.png" alt="icon">
+                  </div>
+                  <div class="content">
+                   <p class="content-name" >Finance Consulting</p>
+                   <p class="content-text">Feed are little help fromery fri of 
+                    anery integrated</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <h5 class="quality-title">Quality Industrial Working</h5>
+            <p class="quality-text">
+              When an unknown printer took a galley of type and scrambled it to make a type specimen
+               bookhas a not only five centuries, but also the leap into electronic typesetting,
+               remaining essentially unchan galley of type and scrambled it to make a type specimen book</p>
+               <div class="row">
+                <div class="col-lg-6">
+                  <div class="quality-img">
+                    <img class="img-fluid" src="./assets/images/quality-img-1.png" alt="img">
+                  </div>
+
+                </div>
+                <div class="col-lg-6">
+                  <div class="quality-img">
+                    <img class="img-fluid" src="./assets/images/quality-img-2.png" alt="img">
+                  </div>
+
+                </div>
+               </div>
+
+               <div class="banner">
+                <h4 class="quote-title">“ Success Is Not Final; Failure Is Not Fatal: 
+                  It Is The Courage To Continue That Counts.”</h4>
+                  <p class="writer-name">Winston Churchill.</p>
+
+               </div>
+
+
+
+            
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap Navbar End Here -->
+
+
+
+
+  <!-- Email Section Start Here-->
+  <div class="email__section">
+    <div class="container">
+      <div class="email__area">
+        <h2 class="email-title">Ready to change <br class="d-block d-lg-none"> your business route</h2>
+        <p class="email-text">Contact with us now and get the all effecient<br class="d-block d-lg-none"> service on
+          your door let's<br class="d-none d-lg-block">
+          have a chat. Shall we?</p>
+
+        <form action="" class="email_field">
+          <label for="exampleInputEmail1"></label>
+          <input required type="email" class="form-control " id="exampleFormControlInput1" aria-describedby="emailHelp"
+            placeholder="Your email here">
+          <button class="btn btn-success get-started" type="submit">Get Started</button>
+        </form>
+
+
+
+      </div>
+    </div>
+  </div>
+  <!-- Footer Section Start Here-->
+
+  <div class="footer__section">
+    <div class="container">
+      <div class="footer__area">
+        <div class="row">
+
+          <div class="col-md-6 pb-4  col-lg-4">
+            <div class="footer_logo">
+              <a href="#"><img class="img-fluid" src="./assets/images/footer-logo.png" alt="img"></a>
+              <p class="footer-logo-text">Amet minim mollit non deserunt ullamco est sit<br class="d-none d-lg-block">
+                aliqua dolor do amet sint. Velit officia consequat<br class="d-none d-lg-block">
+                duis enim velit mollit. Exercitation veniam consequat<br class="d-none d-lg-block">
+                sunt nostrud amet.</p>
+
+            </div>
+
+
+          </div>
+
+          <div class="col-md-6 pb-4 col-lg-2">
+            <div class="footer-menu">
+              <p class="company-title">Our Company</p>
+
+              <a href="#">Home</a>
+              <a href="#">About us</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Our services</a>
+            </div>
+
+
+          </div>
+
+          <div class="col-lg-1">
+            <!-- NUll -->
+          </div>
+
+          <div class="col-md-6 pb-4 col-lg-2">
+            <div class="footer-menu">
+              <p class="company-title">Services</p>
+
+              <a href="#">Business Analysis</a>
+              <a href="#">Strategic Planning</a>
+              <a href="#">Business Consulting</a>
+              <a href="#">Marketing Strategy</a>
+              <a href="#">Experience Design</a>
+              <a href="#">Audit & Evaluation</a>
+            </div>
+          </div>
+
+          <div class="col-md-6 pb-4 col-lg-3">
+            <div class="footer-menu-2">
+              <p class="company-title">Subscribe our newsletter</p>
+
+              <form>
+                <input required type="email" class="form-control " id="exampleFormControlInput1"
+                  aria-describedby="emailHelp" placeholder="Your email here">
+                <button class="btn btn-success subscribe" type="submit">Subscribe</button>
+              </form>
+
+
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Section Start Here-->
+  <div class="privacy__section">
+    <div class="container">
+      <div class="privacy__area">
+
+        <div class="privacy-title">
+          <p>All Copyrights are reserved my Mamdou Ghaneemy</p>
+        </div>
+
+        <div class="social-media">
+          <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+
+  <script>
+
+
+  </script>
+</body>
+
+</html>

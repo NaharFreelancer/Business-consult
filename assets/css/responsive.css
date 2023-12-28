@@ -170,6 +170,7 @@
 .privacy-title {
     font-size: 16px;
 }
+/* =========================================== */
 .about-title {
     padding-bottom: 18px;
     font-size: 40px;
@@ -195,7 +196,7 @@
 .counting-section {
     padding: 70px 0;
 }
-.img-fluid {
+.img-sec .img-fluid {
     max-width: 85%;
 }
 .count-number {
@@ -254,6 +255,72 @@
     width: 84px;
     height: 84px;
 }
+/* =========================================== */
+.port-hero-section {
+    margin: 115px 0 130px 0;
+}
+.port-title {
+    font-size: 45px;
+    line-height: 130%;
+}
+.port-title::after {
+    display: none;
+}
+.port-text {
+    font-size: 17px;
+}
+.description-area.three {
+    padding-bottom: 150px;
+}
+/* ================================ */
+.service-section {
+    margin: 70px 0 48px 0;
+}
+.service-title::after {
+    display: none;
+}
+.service-title, .service-title-2 {
+    font-size: 40px;
+}
+.service-details-section {
+    margin-top: 100px;
+}
+.service-title-2::after {
+    display: none;
+}
+.service-text {
+    font-size: 17px;
+}
+.side-title, .side-title-2 {
+    font-size: 28px;
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+.side-text {
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 22px;
+}
+.details-parent {
+    padding-bottom: 10px;
+}
+.details-text {
+    font-size: 16px;
+    line-height: 130%;
+}
+.details-btn {
+    margin-top: 0px;
+}
+.top {
+    margin-bottom: 155px;
+}
+.side-title-2::before, .side-title-2::after {
+    display: none;
+}
+.service-title-2::before {
+    display: none;
+}
+
 }
 
 
@@ -427,9 +494,9 @@
 .footer__section {
     padding: 80px 0 70px 0;
 }
-.btn-res .btn {
-    margin-top: 13px;
-}
+/* ================================ */
+
+
 .about_hero_section {
     padding: 65px 0 40px 0;
 }
@@ -455,7 +522,7 @@
 .btn-parent{
     text-align: center;
 }
-.img-fluid {
+.img-sec .img-fluid {
     max-width: 80%;
 }
 .counting-section {
@@ -513,9 +580,96 @@
     width: 72px;
     height: 72px;
 }
-.video-section {
+.video-section.BG {
     background: linear-gradient(180deg,transparent 60%,#12182B 0);
 }
+.btn-res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ================================ */
+
+
+.port-hero-section {
+    margin: 100px 0 120px 0;
+}
+.port-parent {
+    justify-content: center;
+}
+.port-title {
+    font-size: 40px;
+    line-height: 140%;
+    text-align: center;
+}
+.port-text {
+    font-size: 16px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.video-thumbnail .img-fluid {
+    max-width: 90%;
+}
+.port-component{
+    text-align: center;
+
+}
+.port-img.img-fluid{
+    max-width: 90%;
+}
+.btn-outline-group {
+    justify-content: center;
+}
+.description-area {
+    justify-content: center;
+}
+.component-name {
+    font-size: 38px;
+}
+.btn-outline-group .btn {
+    padding: 13px 27px;
+}
+.description-area.two, .three, .four, .five {
+    padding-bottom: 40px;
+}
+.description-area.three {
+    padding-bottom: 40px;
+}
+
+.description-area.six {
+    padding-top: 0px;
+}
+
+/* ================================ */
+
+.service-section {
+    margin: 60px 0 48px 0;
+}
+.service-details-section {
+    margin-top: 80px;
+}
+.service-title {
+    font-size: 38px;
+}
+.service-title-2 {
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+.service-text {
+    font-size: 16px;
+}
+.details-btn .dark {
+    margin-top: 30px;
+    padding: 18px 28px;
+}
+.top {
+    margin-bottom: 100px;
+}
+/* ================================ */
+
+
+
 }
 
 @media screen and (max-width: 425px){
@@ -658,6 +812,17 @@
         font-size: 14px;
         padding: 18px 0;
     }
+    .footer__section {
+        padding: 60px 0 20px 0;
+    }
+    .footer-menu {
+        line-height: 100%;
+        font-size: 13px;
+    }
+
+    .footer-menu-2 .form-control {
+        margin-bottom: 12px;
+    }
     
 
 .social-media {
@@ -733,9 +898,80 @@
 .video-thumbnail .img-fluid {
     max-width: 90%;
 }
-.video-section {
+.video-section.BG {
     background: linear-gradient(180deg,transparent 72%,#12182B 0);
 }
+/* ============================================================== */
+.port-hero-section {
+    margin: 70px 0 90px 0;
+}
+.port-title {
+    font-size: 38px;
+    line-height: 115%;
+    padding-bottom: 10px;
+}
+.port-text {
+    font-size: 15px;
+}
+.btn-outline-group .btn {
+    padding: 12px 25px;
+}
+.component-name {
+    font-size: 35px;
+}
+.description-area i {
+    font-size: 20px;
+}
+.description-area.five {
+    padding-bottom: 40px;
+}
+.description-area.six {
+    padding-bottom: 20px;
+}
+/* ================================ */
+.service-section {
+    margin: 50px 0 48px 0;
+}
+.service-title {
+    font-size: 34px;
+    line-height: 125%;
+}
+.service-details-section {
+    margin-top: 60px;
+}
+.service-title-2 {
+    font-size: 26px;
+    padding-bottom: 8px;
+}
+.service-text {
+    font-size: 14px;
+}
+.side-title{
+    padding-top: 30px;
+}
+.side-title, .side-title-2 {
+    font-size: 26px;
+}
+.side-text {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.details-text {
+    font-size: 14px;
+}
+.details-parent {
+    padding-bottom: 8px;
+}
+.details-btn .dark {
+    margin-top: 22px;
+    padding: 16px 24px;
+}
+.top {
+    margin-bottom: 50px;
+}
+
+
+
 }
 
 @media screen and (max-width: 375px){
@@ -812,8 +1048,8 @@
     .social-media {
         font-size: 18px;
     }
-  
-    .about-title {
+/* ================================== */
+.about-title {
         padding-bottom: 12px;
         font-size: 34px;
         line-height: 110%;
@@ -841,6 +1077,44 @@
     }
     .video-title-one, .video-title-two {
         font-size: 24px;
+    }
+/* ================================== */
+    .port-hero-section {
+        margin: 65px 0 80px 0;
+    }
+    .btn-outline-group .btn {
+        padding: 10px 22px;
+    }
+    .component-name {
+        font-size: 32px;
+    }
+    .description-area i {
+        font-size: 18px;
+    }
+    /* ================================== */
+    .service-section {
+        margin: 42px 0;
+    }
+    .service-title {
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .service-title-2 {
+        font-size: 22px;
+        padding-bottom: 6px;
+    }
+    .service-details-section {
+        margin-top: 50px;
+    }
+    .side-title, .side-title-2 {
+        font-size: 22px;
+    }
+    .side-text {
+        font-size: 13px;
+        padding-bottom: 18px;
+    }
+    .details-text {
+        font-size: 13px;
     }
     
 
