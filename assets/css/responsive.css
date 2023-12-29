@@ -131,7 +131,7 @@
         max-width: 80%!important;
 }
 .email__section {
-    margin-top: 110px;
+    margin-top: 100px;
 }
 .email__area {
     border-radius: 55px;
@@ -148,7 +148,8 @@
     padding-bottom: 40px;
 }
 .footer__section {
-    padding: 90px 0 80px 0;
+    padding: 80px 0px 50px;
+
 }
 .company-title {
     font-size: 16px;
@@ -321,6 +322,82 @@
     display: none;
 }
 
+/* =========================================== */
+.service-details-section {
+    margin-top: 80px;
+}
+.service-details-title {
+    font-size: 40px;
+}
+.service-details-title::after {
+    display: none;
+}
+.side-title, .side-title-2 {
+    font-size: 24px;
+}
+.service-title, .service-title-2 {
+    font-size: 17px;
+}
+.service-parent, .service-parent-2, .service-parent-3 {
+    padding: 18px;
+}
+.contact-title {
+    font-size: 24px;
+    line-height: 130%;
+    padding-top: 30px
+}
+.img-bottom-text {
+    font-size: 17px;
+}
+.term-title {
+    font-size: 20px;
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+.term-text {
+    font-size: 16px;
+    line-height: 140%;
+    padding-bottom: 24px;
+}
+.finance-parent, .finance-parent-2 {
+    padding: 22px;
+}
+.content-name {
+    font-size: 20px;
+}
+.content-text {
+    font-size: 16px;
+    line-height: 130%;
+}
+.menu-text {
+    font-size: 14px;
+    line-height: 140%;
+}
+.quality-title {
+    padding: 12px 0 10px 0;
+    font-size: 22px;
+}
+.quality-text {
+    font-size: 16px;
+    padding-bottom: 22px;
+}
+.banner {
+    padding: 25px;
+}
+.quote-title {
+    font-size: 25px;
+    line-height: 140%;
+}
+.writer-name {
+    font-size: 17px;
+    padding-top: 0px;
+}
+.left-side-bar-2 .form-control {
+    padding: 18px;
+}
+.contact-number {
+    padding: 15px 0 30px 0;
+}
 }
 
 
@@ -667,7 +744,39 @@
     margin-bottom: 100px;
 }
 /* ================================ */
-
+.service-details-section {
+    margin-top: 60px;
+}
+.service-details-title {
+    font-size: 36px;
+}
+.side-title, .side-title-2 {
+    font-size: 22px;
+}
+.service-title {
+    font-size: 16px;
+}
+.service-parent, .service-parent-2 {
+    padding: 18px;
+}
+.pdf-parent .service-title-2 {
+    font-size: 17px;
+    padding-bottom: 0;
+}
+.contact-parent {
+    margin-bottom: 30px;
+}
+.img-bottom-text {
+    font-size: 16px;
+    padding: 32px 0 45px 0;
+}
+.finance-parent, .finance-parent-2 {
+    margin-bottom: 30px;
+}
+.quality-img {
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 
 }
@@ -969,8 +1078,46 @@
 .top {
     margin-bottom: 50px;
 }
-
-
+/* ================================ */
+.service-details-section {
+    margin-top: 50px;
+}
+.service-details-title {
+    font-size: 32px;
+}
+.side-title, .side-title-2 {
+    font-size: 24px;
+}
+.side-title {
+    padding-top: 10px;
+}
+.service-title {
+    font-size: 18px;
+    line-height: 100%;
+}
+.img-bottom-text {
+    font-size: 15px;
+    padding: 32px 0 38px 0;
+}
+.term-text {
+    font-size: 15px;
+}
+.content-name {
+    font-size: 18px;
+}
+.content-text {
+    font-size: 14px;
+    line-height: 122%;
+}
+.quality-text {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.quote-title {
+    font-size: 22px;
+    line-height: 130%;
+    padding-bottom: 10px;
+}
 
 }
 
@@ -1116,6 +1263,43 @@
     .details-text {
         font-size: 13px;
     }
-    
+/* ================================== */
 
+    .service-details-section {
+        margin-top: 40px;
+    }
+    .service-details-title {
+        font-size: 28px;
+    }
+    .side-title, .side-title-2 {
+        font-size: 20px;
+    }
+    .side-title {
+        padding-top: 3px;
+    }
+    .service-title {
+        font-size: 18px;
+        line-height: 110%;
+    }
+    .img-bottom-text {
+        font-size: 14px;
+        padding: 30px 0 36px 0;
+    }
+    .term-text {
+        font-size: 14px;
+    }
+    .quality-title {
+        font-size: 20px;
+    }
+    .quality-text {
+        font-size: 14px;
+    }
+    .quote-title {
+        font-size: 20px;
+        line-height: 125%;
+        padding-bottom: 5px;
+    }
+    .writer-name {
+        font-size: 15px;
+    }
 }
