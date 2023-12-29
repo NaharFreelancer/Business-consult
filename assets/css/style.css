@@ -174,13 +174,11 @@
 
 
 /* //border */
-button.slick-prev.slick-arrow {
+button.slick-prev.slick-arrow{
     position: absolute;
     right: 70px;
     top: -70px;
-    /* background: red; */
     border: 1px solid var(--Icon-Color-1, #E6E6E6);
-    /* padding: 20px; */
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -189,18 +187,40 @@ button.slick-prev.slick-arrow {
     color: #747474;
 }
 
+
+
 button.slick-next.slick-arrow {
     position: absolute;
     right: 15px;
     top: -70px;
-    background: #69FAB4;
-    /* padding: 10px 10px; */
+    background: none;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     border: none;
+    border: 1px solid var(--Icon-Color-1, #E6E6E6);
+    color: #747474;
+}
+button.slick-next.slick-arrow:hover {
+    background: #69FAB4;
+    border: none;
     color: #12182B;
 }
+button.slick-prev.slick-arrow:hover {
+    background: #69FAB4;
+    border: none;
+    color: #12182B;
+}
+
+
+
+/* .slick-next.slick-arrow-clicked {
+    background: #69FAB4;
+    border: none;
+    color: #12182B;
+  } */
+
+
 
 .business-slider-class img {
     border-radius: 30px;
