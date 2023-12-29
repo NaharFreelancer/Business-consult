@@ -1,7 +1,5 @@
 .menubar__section {
     background: var(--Primary-Color, #12182B) !important;
-
-
 }
 
 .bg-light {
@@ -19,6 +17,7 @@
 .navbar-nav .nav-link.active {
     color: var(--Secondary-Color, #69FAB4);
 }
+
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 49px;
     padding-left: 0px;
@@ -32,12 +31,16 @@
     line-height: 150%;
     position: relative;
 }
-.nav-link:focus, .nav-link:hover {
+
+.nav-link:focus,
+.nav-link:hover {
     color: #fff;
 }
+
 .nav-link:hover {
     color: var(--Secondary-Color, #69FAB4);
 }
+
 /* .nav-link.active::after {
     content: '';
     display: block;
@@ -50,7 +53,7 @@
     background-color: #76ed91;
     transition:0.3s ease-in-out;
     }  */
- 
+
 
 .btn-success {
     --bs-btn-color: #12182B;
@@ -65,18 +68,21 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
-    padding:15px 30px;
+    padding: 15px 30px;
     border-radius: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     transform: 0.4s ease-in-out;
 }
-.subscribe{
+
+.subscribe {
     padding: 10px 23px;
 }
+
 .subscribe:hover {
     color: var(--Primary-Color, #12182B);
-    
+
 
 }
 
@@ -182,6 +188,7 @@ button.slick-prev.slick-arrow {
     border: 1px solid var(--Icon-Color-1, #E6E6E6);
     color: #747474;
 }
+
 button.slick-next.slick-arrow {
     position: absolute;
     right: 15px;
@@ -194,14 +201,16 @@ button.slick-next.slick-arrow {
     border: none;
     color: #12182B;
 }
-.business-slider-class img{
+
+.business-slider-class img {
     border-radius: 30px;
     /* width: 575px;*/
-    max-height: 480px; 
+    max-height: 480px;
     object-fit: cover;
 
 
 }
+
 .slick-track {
     display: flex;
     gap: 20px;
@@ -370,7 +379,7 @@ button.slick-next.slick-arrow {
     cursor: pointer;
 }
 
-  
+
 
 .card-body {
     padding: 0;
@@ -395,20 +404,23 @@ button.slick-next.slick-arrow {
     /* 27px */
     padding-bottom: 73px;
 }
+
 /* serve section end */
 /* Expert section start */
-.expert__section{
+.expert__section {
     margin-top: 140px;
 }
 
-.expert-title{
+.expert-title {
     color: var(--Primary-Color, #12182B);
     font-size: 48px;
     font-weight: 600;
-    line-height: 150%; /* 72px */
+    line-height: 150%;
+    /* 72px */
     padding-bottom: 56px;
     position: relative;
 }
+
 .expert-title::after {
     position: absolute;
     background-image: url('../images/expert-design.png');
@@ -420,49 +432,59 @@ button.slick-next.slick-arrow {
     width: 100px;
     height: 60px;
 }
-.expert-slider-class img{
+
+.expert-slider-class img {
     border-radius: 80px 0px;
 }
-.expert-slider-class .img-middle{
-    border-radius: 0px 80px ;
+
+.expert-slider-class .img-middle {
+    border-radius: 0px 80px;
 
 }
-.mentor-name{
+
+.mentor-name {
     color: var(--Primary-Color, #12182B);
     font-size: 32px;
     font-weight: 600;
-    line-height: 150%; /* 48px */
+    line-height: 150%;
+    /* 48px */
     padding: 24px 0 12px 0;
     text-align: center;
 }
-.mentor-designation{
+
+.mentor-designation {
     color: var(--Text-Color-1, #5E5E5E);
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%; /* 27px */
+    line-height: 150%;
+    /* 27px */
     text-align: center;
 
 }
-.expert-swiper .swiper-slide{
-    
+
+.expert-swiper .swiper-slide {
+
     flex-direction: column;
 }
 
 /* Expert section end */
 /* testimonial section start */
 
-.testimonial__section{
+.testimonial__section {
     margin-top: 140px;
 }
-.testimonial-title{
+
+.testimonial-title {
     color: var(--Primary-Color, #12182B);
     text-align: center;
     font-size: 48px;
     font-weight: 600;
-    line-height: 150%; /* 72px */
+    line-height: 150%;
+    /* 72px */
     position: relative;
 }
-.testimonial-title::after{
+
+.testimonial-title::after {
     position: absolute;
     background-image: url('../images/Rectangle-1.png');
     content: '';
@@ -472,33 +494,41 @@ button.slick-next.slick-arrow {
     width: 22%;
     height: 20px;
 }
-.testimonial-text{
+
+.testimonial-text {
     color: var(--Text-Color-1, #5E5E5E);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%; /* 27px */
+    line-height: 150%;
+    /* 27px */
     padding: 17px 0 40px 0;
 }
-.quote-text{
+
+.quote-text {
     color: var(--Primary-Color, #12182B);
     font-size: 24px;
     font-weight: 500;
-    line-height: 150%; /* 36px */
+    line-height: 150%;
+    /* 36px */
     padding: 24px 0 56px 0;
 }
-.client-name{
+
+.client-name {
     color: var(--Primary-Color, #12182B);
     font-size: 28px;
     font-weight: 600;
-    line-height: 150%; /* 42px */
+    line-height: 150%;
+    /* 42px */
     padding: 56px 0 12px 0;
 }
-.client-designation{
+
+.client-designation {
     color: var(--Text-Color-1, #5E5E5E);
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%; /* 27px */
+    line-height: 150%;
+    /* 27px */
 }
 
 
@@ -509,16 +539,16 @@ button.slick-next.slick-arrow {
     height: 100%;
   } */
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  /* .swiper-slide img {
+/* .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -532,6 +562,7 @@ button.slick-next.slick-arrow {
     margin-top: 140px;
 
 }
+
 .email__area {
     border-radius: 77px;
     background-color: #12182B;
@@ -540,24 +571,25 @@ button.slick-next.slick-arrow {
 }
 
 
-.email-title{
+.email-title {
     color: var(--Neutral-Color, #FFF);
     text-align: center;
     font-size: 60px;
     font-weight: 600;
-    line-height: 150%; 
+    line-height: 150%;
     padding-bottom: 30px;
 }
-.email-text{
+
+.email-text {
     color: var(--Text-Color-2, #E6E6E6);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
     padding-bottom: 48px;
 }
 
-.get-started:hover{
+.get-started:hover {
     color: #12182B;
 }
 
@@ -642,7 +674,8 @@ button.slick-next.slick-arrow {
     margin: 12px 0;
     max-width: 284px;
 }
-.form-control:focus{
+
+.form-control:focus {
     box-shadow: none;
 }
 
@@ -672,5 +705,3 @@ button.slick-next.slick-arrow {
     gap: 14px;
     font-size: 24px;
 }
-
-
