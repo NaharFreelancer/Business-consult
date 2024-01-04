@@ -174,7 +174,7 @@
 
 
 /* //border */
-button.slick-prev.slick-arrow{
+button.slick-prev.slick-arrow {
     position: absolute;
     right: 70px;
     top: -70px;
@@ -201,11 +201,13 @@ button.slick-next.slick-arrow {
     border: 1px solid var(--Icon-Color-1, #E6E6E6);
     color: #747474;
 }
+
 button.slick-next.slick-arrow:hover {
     background: #69FAB4;
     border: none;
     color: #12182B;
 }
+
 button.slick-prev.slick-arrow:hover {
     background: #69FAB4;
     border: none;
@@ -724,4 +726,85 @@ button.slick-prev.slick-arrow:hover {
     align-items: center;
     gap: 14px;
     font-size: 24px;
+}
+
+/* animation */
+
+.imgOne {
+    top: 20%;
+    right: 5%;
+}
+
+.imgTwo {
+    top: 40%;
+    left: -5%;
+}
+
+.imgThree {
+    bottom: 0;
+    right: 12%;
+}
+
+.imgFour {
+    top: 26%;
+    left: 28%;
+}
+
+.imgFive {
+    top: 20%;
+}
+
+img.animatedImg {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+img.animatedImg {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+.loader-spinner {
+    -webkit-animation: spinLoader 4000ms steps(12, end) infinite;
+    animation: spinLoader 4000ms steps(12, end) infinite;
+}
+
+@-webkit-keyframes spinLoader {
+    from {
+        transform: translate(-50%, -50%) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
+}
+
+@keyframes spinLoader {
+    from {
+        transform: translate(-50%, -50%) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
 }
