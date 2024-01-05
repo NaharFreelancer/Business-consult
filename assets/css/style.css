@@ -277,6 +277,16 @@ button.slick-prev.slick-arrow:hover {
 
 }
 
+.teamOne {
+    top: -10%;
+    left: -15%;
+}
+
+.teamTwo {
+    bottom: -15%;
+    right: -15%;
+}
+
 .nav {
     gap: 52px;
 }
@@ -525,6 +535,18 @@ button.slick-prev.slick-arrow:hover {
     line-height: 150%;
     /* 27px */
     padding: 17px 0 40px 0;
+}
+
+.testimonialOne {
+    top: 7%;
+    right: 12%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.testimonialOne:hover {
+    top: 12%;
+    right: 17%;
 }
 
 .quote-text {
