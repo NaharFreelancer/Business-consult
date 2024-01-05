@@ -785,8 +785,8 @@ img.animatedImg {
 }
 
 .loader-spinner {
-    -webkit-animation: spinLoader 4000ms steps(12, end) infinite;
-    animation: spinLoader 4000ms steps(12, end) infinite;
+    -webkit-animation: spinLoader 4000ms ease-in-out infinite;
+    animation: spinLoader 4000ms ease-in-out infinite;
 }
 
 @-webkit-keyframes spinLoader {
