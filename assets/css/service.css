@@ -50,7 +50,7 @@
     background-color: #76ed91;
     transition:0.3s ease-in-out;
     }  */
- 
+
 
 .btn-success {
     --bs-btn-color: #12182B;
@@ -76,7 +76,7 @@
 }
 .subscribe:hover {
     color: var(--Primary-Color, #12182B);
-    
+
 
 }
 
@@ -319,7 +319,7 @@
     cursor: pointer;
 }
 
-  
+
 
 .card-body {
     padding: 0;
@@ -363,7 +363,7 @@
     text-align: center;
     font-size: 60px;
     font-weight: 600;
-    line-height: 150%; 
+    line-height: 150%;
     padding-bottom: 30px;
 }
 .email-text{
@@ -371,7 +371,7 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 150%; 
+    line-height: 150%;
     padding-bottom: 48px;
 }
 
@@ -491,4 +491,12 @@
     font-size: 24px;
 }
 
+.port-img {
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 0.2s;
+}
 
+.port-img:hover {
+    transform: scale(1.2);
+}

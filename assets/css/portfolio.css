@@ -454,3 +454,7 @@
     gap: 14px;
     font-size: 24px;
 }
+.iframeClass {
+    width: 100%;
+    height: 430px;
+}
